@@ -1,6 +1,6 @@
 # Nexora Semi
 
-> Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It designs custom analog and mixed-signal integrated circuits (ASICs) using an AI agent-driven design flow, in which one senior mixed-signal designer directs AI agents that generate, simulate, lay out and verify circuits inside industry-standard EDA tools.
+> Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It designs custom analog and mixed-signal integrated circuits (ASICs) using an AI agent-driven design flow, in which one senior mixed-signal designer directs AI agents that generate, simulate, lay out and verify circuits by driving chip-design tools through scripts.
 
 ## Key facts
 
