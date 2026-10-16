@@ -4,14 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About — Nexora Semi</title>
-  <meta name="description" content="About Nexora Semi, a fabless semiconductor company focused on precision timing.">
+  <meta name="description" content="About Nexora Semiconductor Pty Ltd: a fabless startup making custom analog and mixed-signal chips faster and more affordable through an AI agent-driven design flow led by a senior mixed-signal designer.">
+  <link rel="canonical" href="https://www.nexorasemi.com/about.html">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What does Nexora Semi do?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Nexora Semi is a fabless semiconductor startup that designs custom analog and mixed-signal integrated circuits (ASICs) using an AI agent-driven design flow, and is developing its own products in precision timing, power management and sensor interfaces." } },
+      { "@type": "Question", "name": "How does Nexora use AI in chip design?",
+        "acceptedAnswer": { "@type": "Answer", "text": "AI agents operate industry-standard EDA tools by script: they generate schematics, build test benches and run corner and Monte Carlo simulations, generate layout placement, power and routing, run DRC, LVS and parasitic extraction, fix violations and write design reports. A senior designer reviews every stage." } },
+      { "@type": "Question", "name": "What results has the flow achieved?",
+        "acceptedAnswer": { "@type": "Answer", "text": "In October 2026, about 15 analog blocks were laid out by AI agents and verified DRC/LVS-clean in roughly two weeks with one designer reviewing. A full automated layout and verification pass takes under a minute per block, and one AI-generated regulator layout was 17% smaller than the hand layout with about 6 dB better supply rejection. A complete chip has not yet been taped out with the flow." } },
+      { "@type": "Question", "name": "What is Nexora's competitive advantage?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The flow targets designing a small mixed-signal ASIC in about one month with one senior designer, compared with roughly six months and a three-person team (analog, digital and layout engineers) in a conventional flow. These figures are targets based on block-level results and will be validated on a complete chip." } },
+      { "@type": "Question", "name": "What are Nexora's next milestones?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Full-chip integration with the AI flow (in progress), then a first tape-out on a multi-project wafer shuttle, silicon validation, first customer ASIC projects and growth of a South Australian design team." } }
+    ]
+  }
+  </script>
 </head>
 <body>
 
 <header class="site-header">
-  <nav class="container nav">
+  <nav class="container nav" aria-label="Main">
     <a class="logo" href="index.html">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="7" fill="#19b5a5"/><path d="M9 23V9l14 14V9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
       NEXORA SEMI
@@ -19,7 +38,9 @@
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="products.html">Products</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="products.html">Solutions</a></li>
+      <li><a href="progress.html">R&amp;D Progress</a></li>
       <li><a href="about.html" aria-current="page">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -30,23 +51,74 @@
   <section class="hero page-hero">
     <div class="container">
       <p class="eyebrow">About us</p>
-      <h1>A fabless team focused on precision</h1>
-      <p class="lead">Nexora Semiconductor Pty Ltd (Nexora Semi) is a new fabless semiconductor company founded by analog and mixed-signal IC designers.</p>
+      <h1>Making custom silicon practical for every product company</h1>
+      <p class="lead">Nexora Semiconductor Pty Ltd (Nexora Semi) is a fabless semiconductor startup. We combine deep analog and mixed-signal design experience with AI agents to design custom chips faster, with a fraction of the usual team.</p>
     </div>
   </section>
 
   <section>
     <div class="container grid grid-2">
       <div>
-        <h2>Our approach</h2>
-        <p>Every Nexora part combines a carefully designed analog core with digital calibration. Each part is trimmed individually and the result is stored in on-chip non-volatile memory, so it meets spec without external components.</p>
-        <p>We work on mature, high-volume processes, which keep our products cost-effective and our supply chain dependable.</p>
+        <h2>Our mission</h2>
+        <p>Custom analog and mixed-signal chips make products smaller, more power-efficient and cheaper at volume, but their cost and long design cycles have kept them out of reach for most small and mid-sized companies.</p>
+        <p>Nexora's mission is to change that. By letting one experienced designer direct a team of AI agents, we aim to deliver custom mixed-signal ASICs in weeks instead of months, and to build world-class chip-design capability in Australia.</p>
       </div>
-      <div class="grid">
-        <div class="card"><h3>Design</h3><p>Full custom analog, RF and digital design in-house.</p></div>
-        <div class="card"><h3>Verification</h3><p>Corner, Monte Carlo and system-level verification before tape-out.</p></div>
-        <div class="card"><h3>Characterization</h3><p>Bench validation over temperature, supply and process.</p></div>
+      <div class="card">
+        <p class="eyebrow">Founder &amp; Chief Designer</p>
+        <h3>Senior mixed-signal IC designer</h3>
+        <p>Hands-on experience across the full chip-development cycle: specification, circuit design, layout, verification, tape-out and silicon bring-up.</p>
+        <ul style="color:var(--muted);padding-left:18px;margin:14px 0 0">
+          <li>Precision timing: crystal oscillators and frequency synthesis (PLLs)</li>
+          <li>Power management: LDOs, references, bias circuits</li>
+          <li>One-time-programmable memory (eFuse / OTP) and trimming</li>
+          <li>Architect of Nexora's AI agent design flow</li>
+        </ul>
       </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container">
+      <h2>Company facts</h2>
+      <dl class="facts">
+        <dt>Legal name</dt><dd>Nexora Semiconductor Pty Ltd</dd>
+        <dt>Trading name</dt><dd>Nexora Semi</dd>
+        <dt>Business model</dt><dd>Fabless: we design chips; foundry partners manufacture them</dd>
+        <dt>Offerings</dt><dd>Custom analog / mixed-signal ASIC design; own products in timing, power and sensor ICs (in development)</dd>
+        <dt>Core technology</dt><dd>AI agent-driven analog &amp; mixed-signal design and layout flow</dd>
+        <dt>Stage</dt><dd>Early stage: flow proven at block level; full-chip integration in progress</dd>
+        <dt>Contact</dt><dd><a href="mailto:info@nexorasemi.com">info@nexorasemi.com</a></dd>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <div class="container faq">
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>What does Nexora Semi do?</summary>
+        <p>We design custom analog and mixed-signal integrated circuits (ASICs) using an AI agent-driven design flow, and we are developing our own products in precision timing, power management and sensor interfaces.</p>
+      </details>
+      <details>
+        <summary>How does Nexora use AI in chip design?</summary>
+        <p>AI agents operate industry-standard EDA tools by script. They generate schematics, build test benches and run corner and Monte Carlo simulations, generate layout placement, power and routing, run DRC, LVS and parasitic extraction, fix violations and write design reports. A senior designer reviews every stage.</p>
+      </details>
+      <details>
+        <summary>Does AI replace the chip designer?</summary>
+        <p>No. The designer sets the architecture and specifications and signs off each stage. The agents take on the time-consuming execution work that would otherwise need a team of analog, digital and layout engineers.</p>
+      </details>
+      <details>
+        <summary>What has the flow achieved so far?</summary>
+        <p>In October 2026, about 15 analog blocks were laid out by AI agents and verified DRC/LVS-clean in roughly two weeks, with one designer reviewing. A full automated layout and verification pass takes under a minute per block, and one AI-generated regulator layout was 17% smaller than the hand layout with about 6&nbsp;dB better supply rejection. A complete chip has not yet been taped out with the flow.</p>
+      </details>
+      <details>
+        <summary>What is the competitive advantage?</summary>
+        <p>The flow targets designing a small mixed-signal ASIC in about one month with one senior designer, compared with roughly six months and a three-person team in a conventional flow. These are targets based on block-level results, and full-chip validation is our current milestone.</p>
+      </details>
+      <details>
+        <summary>What happens next?</summary>
+        <p>Full-chip integration (in progress), a first tape-out on a multi-project wafer shuttle, silicon validation, then first customer projects and a growing design team. See <a href="progress.html">R&amp;D progress</a>.</p>
+      </details>
     </div>
   </section>
 </main>

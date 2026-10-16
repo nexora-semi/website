@@ -3,15 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nexora Semi — Precision Timing & Mixed-Signal ICs</title>
-  <meta name="description" content="Nexora Semi designs precision timing and mixed-signal integrated circuits.">
+  <title>Nexora Semi — AI-Accelerated Mixed-Signal IC Design</title>
+  <meta name="description" content="Nexora Semi is a fabless semiconductor startup that designs custom analog and mixed-signal ICs with an AI agent-driven design flow: one senior designer directing AI agents to design, simulate, lay out and verify chips in weeks instead of months.">
+  <link rel="canonical" href="https://www.nexorasemi.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nexora Semi — AI-Accelerated Mixed-Signal IC Design">
+  <meta property="og:description" content="Custom mixed-signal chips designed by one senior designer directing AI agents — targeting weeks instead of months.">
+  <meta property="og:url" content="https://www.nexorasemi.com/">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Nexora Semi",
+    "legalName": "Nexora Semiconductor Pty Ltd",
+    "url": "https://www.nexorasemi.com/",
+    "logo": "https://www.nexorasemi.com/img/favicon.svg",
+    "email": "info@nexorasemi.com",
+    "description": "Fabless semiconductor startup designing custom analog and mixed-signal integrated circuits with an AI agent-driven design flow, in which one senior designer directs AI agents that generate, simulate, lay out and verify circuits in industry-standard EDA tools.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Adelaide", "addressRegion": "SA", "addressCountry": "AU" },
+    "knowsAbout": ["Analog IC design", "Mixed-signal IC design", "ASIC design", "IC layout automation", "AI agents for electronic design automation", "Precision timing ICs", "Power management ICs", "Sensor interface ASICs"]
+  }
+  </script>
 </head>
 <body>
 
 <header class="site-header">
-  <nav class="container nav">
+  <nav class="container nav" aria-label="Main">
     <a class="logo" href="index.html">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="7" fill="#19b5a5"/><path d="M9 23V9l14 14V9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
       NEXORA SEMI
@@ -19,7 +38,9 @@
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
     <ul class="nav-links">
       <li><a href="index.html" aria-current="page">Home</a></li>
-      <li><a href="products.html">Products</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="products.html">Solutions</a></li>
+      <li><a href="progress.html">R&amp;D Progress</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -34,54 +55,71 @@
       <path d="M0 190 Q 37.5 140 75 190 T 150 190 T 225 190 T 300 190 T 375 190 T 450 190 T 525 190 T 600 190" opacity=".35"/>
     </svg>
     <div class="container">
-      <p class="eyebrow">Precision Timing · Mixed-Signal ICs</p>
-      <h1>Silicon that keeps time, so your system doesn't have to.</h1>
-      <p class="lead">Nexora Semi designs low-power, high-stability timing and analog ICs for communications, industrial and IoT applications.</p>
+      <p class="eyebrow">AI-accelerated analog &amp; mixed-signal IC design</p>
+      <h1>Custom chips, designed in weeks, not months.</h1>
+      <p class="lead">Nexora Semi pairs senior mixed-signal design expertise with an AI agent-driven design flow. AI agents generate, simulate, lay out and verify circuits inside industry-standard EDA tools, under the direction of one experienced designer, doing work that traditionally needs a team.</p>
       <p style="margin-top:32px">
-        <a class="btn btn-primary" href="products.html">Explore products</a>
+        <a class="btn btn-primary" href="technology.html">See how it works</a>
         <a class="btn btn-ghost" href="contact.html">Talk to us</a>
       </p>
     </div>
   </section>
 
   <section>
-    <div class="container">
-      <p class="eyebrow">What we do</p>
-      <h2>Analog and timing expertise, from spec to silicon</h2>
-      <p class="section-intro">We pair deep analog design experience with a fully digital calibration flow, delivering parts that are accurate out of the box and stable over temperature and life.</p>
-      <div class="grid grid-3">
-        <div class="card">
-          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
-          <h3>Frequency control</h3>
-          <p>Temperature-compensated oscillators and clock generators with ppm-level stability.</p>
-        </div>
-        <div class="card">
-          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
-          <h3>Low-noise PLLs</h3>
-          <p>Fractional-N synthesizers with low jitter and fine frequency resolution.</p>
-        </div>
-        <div class="card">
-          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9zM9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg></div>
-          <h3>Power &amp; sensor ASICs</h3>
-          <p>Power management, references, sensor interfaces and on-chip trimming (OTP / eFuse).</p>
-        </div>
+    <div class="container grid grid-2">
+      <div>
+        <p class="eyebrow">The problem</p>
+        <h2>Custom silicon is too slow and too expensive for most products</h2>
+        <p>A custom analog or mixed-signal chip can make a product smaller, lower-power and cheaper at volume. But designing even a small one typically takes around six months and a specialist team: an analog designer, a digital designer and a layout engineer.</p>
+        <p>Experienced mixed-signal engineers are scarce, and that cost and schedule put custom silicon out of reach for many small and mid-sized product companies. They settle for off-the-shelf parts instead.</p>
+      </div>
+      <div>
+        <p class="eyebrow">Our solution</p>
+        <h2>One senior designer, a team of AI agents</h2>
+        <p>Nexora has built a design flow in which AI agents do the time-consuming engineering work: schematic entry, simulation set-up and corner sweeps, layout placement and routing, DRC/LVS fixing and report writing. They work directly in the same professional tools a conventional team would use.</p>
+        <p>An experienced mixed-signal designer sets the architecture, reviews every stage and signs off. The result: the quality of an expert team, at the speed and cost of one person.</p>
       </div>
     </div>
   </section>
 
   <section class="alt">
-    <div class="container stats">
-      <div class="stat"><strong>Fabless</strong><span>Design-focused, foundry-partnered</span></div>
-      <div class="stat"><strong>Mixed-signal</strong><span>Analog, RF and digital in one team</span></div>
-      <div class="stat"><strong>Mature CMOS</strong><span>Cost-effective, high-volume processes</span></div>
-      <div class="stat"><strong>ASIC + ICs</strong><span>Standard products and custom silicon</span></div>
+    <div class="container">
+      <p class="eyebrow">Early results</p>
+      <h2>Measured on real circuit blocks</h2>
+      <p class="section-intro">Block-level results from Nexora's internal development, October 2026.</p>
+      <div class="grid grid-2" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr))">
+        <div class="card result"><strong>~15 blocks</strong><p>Analog blocks (regulators, bias generators, LDOs, oscillator, divider) laid out by AI agents and verified DRC/LVS-clean in about two weeks, reviewed by one designer.</p></div>
+        <div class="card result"><strong>&lt; 1 minute</strong><p>For an automated placement, power, routing, DRC and parasitic-extraction pass on a block, so layout can be regenerated freely as the design evolves.</p></div>
+        <div class="card result"><strong>17% smaller</strong><p>AI-generated regulator layout vs. the hand-drawn version, with about 6&nbsp;dB better supply rejection. It replaced the hand layout as the reference design.</p></div>
+        <div class="card result"><strong>100+ corners</strong><p>Process, voltage and temperature corners plus Monte Carlo runs, set up, run and checked automatically for each block.</p></div>
+      </div>
+      <p class="note">A complete chip has not yet been taped out with this flow; full-chip integration is the current milestone. See <a href="progress.html">R&amp;D progress</a>.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <p class="eyebrow">The advantage</p>
+      <h2>What changes with an AI-driven flow</h2>
+      <div class="table-wrap">
+        <table class="compare">
+          <thead><tr><th></th><th>Conventional flow</th><th>Nexora target</th></tr></thead>
+          <tbody>
+            <tr><th>Design time, small mixed-signal ASIC</th><td>~6 months</td><td class="us">~1 month</td></tr>
+            <tr><th>Engineering team</th><td>3 specialists: analog, digital, layout</td><td class="us">1 senior designer + AI agents</td></tr>
+            <tr><th>Layout revision</th><td>Days of manual re-work</td><td class="us">Regenerated in minutes</td></tr>
+            <tr><th>Verification</th><td>Manually set-up sweeps</td><td class="us">Automated corners, Monte Carlo and reports</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Nexora figures are design targets, based on the block-level results above. They will be validated on a complete chip.</p>
     </div>
   </section>
 
   <section class="cta">
     <div class="container">
-      <h2>Need a timing solution?</h2>
-      <p>Tell us about your application. We're happy to discuss samples, evaluation boards and custom variants.</p>
+      <h2>Have a product that could use custom silicon?</h2>
+      <p>We're happy to talk about custom ASICs, partnerships and investment.</p>
       <a class="btn btn-primary" href="contact.html">Contact us</a>
     </div>
   </section>

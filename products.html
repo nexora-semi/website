@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Products — Nexora Semi</title>
-  <meta name="description" content="Nexora Semi product areas: TCXO and PLL timing ICs, RF, power management and sensor ASICs, plus custom ASIC design.">
+  <title>Solutions — Nexora Semi</title>
+  <meta name="description" content="Nexora Semi solutions: custom analog and mixed-signal ASIC design with an AI agent-driven flow, plus its own products in development for precision timing, power management and sensor interfaces.">
+  <link rel="canonical" href="https://www.nexorasemi.com/products.html">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header class="site-header">
-  <nav class="container nav">
+  <nav class="container nav" aria-label="Main">
     <a class="logo" href="index.html">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="7" fill="#19b5a5"/><path d="M9 23V9l14 14V9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
       NEXORA SEMI
@@ -19,7 +20,9 @@
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="products.html" aria-current="page">Products</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="products.html" aria-current="page">Solutions</a></li>
+      <li><a href="progress.html">R&amp;D Progress</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -29,43 +32,71 @@
 <main>
   <section class="hero page-hero">
     <div class="container">
-      <p class="eyebrow">Products</p>
-      <h1>Timing, RF, power and sensor ICs</h1>
-      <p class="lead">Our portfolio is in development. Get in touch to discuss your requirements, early access or a custom variant.</p>
+      <p class="eyebrow">Solutions</p>
+      <h1>Custom ASICs, and our own chips</h1>
+      <p class="lead">Two ways the AI design flow creates value: designing custom mixed-signal chips for product companies, and developing Nexora's own standard products.</p>
     </div>
   </section>
 
   <section>
-    <div class="container grid grid-3">
-      <div class="card product">
-        <span class="tag live">Timing</span>
-        <h3>TCXO ICs</h3>
-        <p>Temperature-compensated crystal oscillator ICs with digital calibration and on-chip OTP trim memory.</p>
+    <div class="container grid grid-2">
+      <div>
+        <p class="eyebrow">Custom ASIC design</p>
+        <h2>Your chip, designed in weeks</h2>
+        <p>For product companies that need lower power, a smaller size or a lower unit cost than off-the-shelf parts can deliver. We take a specification through circuit design, layout, verification and tape-out preparation using our AI agent-driven flow.</p>
+        <p>A smaller team and a shorter schedule mean a lower design cost, which makes custom silicon viable at volumes where it would not have been before.</p>
+        <p><a class="btn btn-primary" href="contact.html">Discuss a project</a></p>
       </div>
-      <div class="card product">
-        <span class="tag live">Timing</span>
-        <h3>PLL clock generators</h3>
-        <p>Low-jitter fractional-N synthesizers that turn a single reference into flexible output frequencies.</p>
+      <div class="card">
+        <h3>What we deliver</h3>
+        <ul style="color:var(--muted);padding-left:18px;margin:0">
+          <li>Architecture and specification support</li>
+          <li>Analog and mixed-signal circuit design</li>
+          <li>Layout, DRC/LVS-clean and parasitic-extracted</li>
+          <li>Corner, Monte Carlo and post-layout verification</li>
+          <li>Design documentation and tape-out preparation</li>
+          <li>Support through fabrication and silicon testing</li>
+        </ul>
       </div>
-      <div class="card product">
-        <span class="tag">RF</span>
-        <h3>RF building blocks</h3>
-        <p>Oscillators, synthesizers and front-end circuits for wireless and communications systems.</p>
-      </div>
-      <div class="card product">
-        <span class="tag">Power</span>
-        <h3>Power management (PMIC)</h3>
-        <p>LDOs, references and supply management for low-power and battery-operated products.</p>
-      </div>
-      <div class="card product">
-        <span class="tag">Sensors</span>
-        <h3>Sensor ASICs</h3>
-        <p>Sensor interfaces and signal-conditioning ASICs with on-chip calibration.</p>
-      </div>
-      <div class="card product">
-        <span class="tag">Services</span>
-        <h3>Custom ASIC design</h3>
-        <p>Analog and mixed-signal design, verification and tape-out support, from specification to silicon.</p>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container">
+      <p class="eyebrow">Nexora products · in development</p>
+      <h2>Standard ICs built with the same flow</h2>
+      <p class="section-intro">Product areas where the flow's speed lets us bring focused, cost-effective parts to market.</p>
+      <div class="grid grid-3">
+        <div class="card product">
+          <span class="tag live">Timing</span>
+          <h3>Precision timing ICs</h3>
+          <p>Crystal oscillator and clock ICs with digital calibration and on-chip trim memory.</p>
+        </div>
+        <div class="card product">
+          <span class="tag live">Timing</span>
+          <h3>PLL clock generators</h3>
+          <p>Low-jitter fractional-N synthesizers that derive flexible output frequencies from a single reference.</p>
+        </div>
+        <div class="card product">
+          <span class="tag">Power</span>
+          <h3>Power management</h3>
+          <p>LDOs, references and supply management for low-power and battery-operated products.</p>
+        </div>
+        <div class="card product">
+          <span class="tag">Sensors</span>
+          <h3>Sensor interface ASICs</h3>
+          <p>Signal conditioning and calibration for sensors, integrated on a single chip.</p>
+        </div>
+        <div class="card product">
+          <span class="tag">RF</span>
+          <h3>RF building blocks</h3>
+          <p>Oscillators, synthesizers and front-end circuits for wireless and communications systems.</p>
+        </div>
+        <div class="card product">
+          <span class="tag">IP</span>
+          <h3>Analog IP licensing</h3>
+          <p>Verified analog blocks generated by our flow, available for integration into partners' SoCs.</p>
+        </div>
       </div>
     </div>
   </section>

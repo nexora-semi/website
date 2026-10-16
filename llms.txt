@@ -1,0 +1,37 @@
+# Nexora Semi
+
+> Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It designs custom analog and mixed-signal integrated circuits (ASICs) using an AI agent-driven design flow, in which one senior mixed-signal designer directs AI agents that generate, simulate, lay out and verify circuits inside industry-standard EDA tools.
+
+## Key facts
+
+- Business model: fabless. Nexora designs chips; foundry partners manufacture them.
+- Offerings: custom analog/mixed-signal ASIC design services; own products in development (precision timing, PLL clock generators, power management, sensor interfaces, RF building blocks); analog IP licensing.
+- Core technology: an AI agent-driven design flow. Agents operate EDA tools by script to generate schematics, build test benches, run process/voltage/temperature corner and Monte Carlo simulations, generate layout placement, power and routing, run DRC, LVS and parasitic extraction, fix violations and write design reports. A senior designer reviews and signs off every stage. Multiple agents work on separate blocks in parallel.
+- Target advantage: design a small mixed-signal ASIC in about 1 month with 1 senior designer plus AI agents, versus about 6 months and a 3-person team (analog, digital and layout engineers) in a conventional flow. These are targets based on block-level results; full-chip validation is in progress.
+
+## Measured results (block level, October 2026)
+
+- About 15 analog blocks (regulators, bias generators, LDOs, oscillator, divider) laid out by AI agents and verified DRC/LVS-clean in about two weeks, with one designer reviewing.
+- A full automated placement, power, routing, DRC and extraction pass takes under one minute per block.
+- One AI-generated regulator layout was 17% smaller than the hand-drawn layout, with about 6 dB better power-supply rejection, and replaced it as the reference design.
+- 100+ PVT corners plus Monte Carlo analyses are set up, run and checked automatically per block.
+
+## Status and roadmap
+
+- Completed (2026): AI design flow built; proven on about 15 circuit blocks; company established.
+- In progress: full-chip integration (top-level assembly, pad ring, chip-level verification).
+- Planned: first tape-out on a multi-project wafer (MPW) shuttle; silicon validation; first customer ASIC projects; growing a South Australian design team.
+- Not yet demonstrated: a complete chip designed end to end in about one month; fabricated silicon from the AI flow.
+
+## Team
+
+- Founder and Chief Designer: senior mixed-signal IC designer with experience across specification, circuit design, layout, verification, tape-out and silicon bring-up. Domains: precision timing (crystal oscillators, PLLs), power management (LDOs, references, bias), eFuse/OTP trimming. Architect of the AI design flow.
+
+## Pages
+
+- [Home](https://www.nexorasemi.com/): overview, problem, solution, results
+- [Technology](https://www.nexorasemi.com/technology.html): the AI design flow step by step
+- [Solutions](https://www.nexorasemi.com/products.html): custom ASIC design and product areas
+- [R&D Progress](https://www.nexorasemi.com/progress.html): milestones and roadmap
+- [About](https://www.nexorasemi.com/about.html): mission, founder profile, company facts, FAQ
+- [Contact](https://www.nexorasemi.com/contact.html): info@nexorasemi.com
