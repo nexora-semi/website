@@ -3,11 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Solutions — Nexora Semi</title>
-  <meta name="description" content="Nexora Semi solutions: custom analog and mixed-signal ASIC design with an AI agent-driven flow, plus its own products in development for precision timing, power management and sensor interfaces.">
+  <title>Products — Precision Timing ICs | Nexora Semi</title>
+  <meta name="description" content="Nexora Semi is developing precision timing ICs: TCXO ICs, OCXO controller ICs, PLL-based TCXOs, clock generators and jitter cleaners, designed with an AI agent-driven design flow.">
   <link rel="canonical" href="https://www.nexorasemi.com/products.html">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Nexora Semi timing IC product roadmap",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "item": { "@type": "Product", "name": "TCXO ICs", "category": "Temperature-compensated crystal oscillator IC", "brand": "Nexora Semi", "description": "Temperature-compensated crystal oscillator ICs with on-chip temperature sensing, compensation, digital calibration and trim memory. First product focus; in development." } },
+      { "@type": "ListItem", "position": 2, "item": { "@type": "Product", "name": "PLL-based TCXOs", "category": "Programmable temperature-compensated oscillator IC", "brand": "Nexora Semi", "description": "Temperature-compensated crystal reference with an integrated fractional-N PLL that synthesises the required output frequency. First product focus; in development." } },
+      { "@type": "ListItem", "position": 3, "item": { "@type": "Product", "name": "OCXO controller ICs", "category": "Oven-controlled crystal oscillator IC", "brand": "Nexora Semi", "description": "Oscillator and precision oven-control IC for oven-controlled crystal oscillators. On the product roadmap." } },
+      { "@type": "ListItem", "position": 4, "item": { "@type": "Product", "name": "Clock generators", "category": "Clock generator IC", "brand": "Nexora Semi", "description": "Multi-output programmable low-jitter clock generator ICs. On the product roadmap." } },
+      { "@type": "ListItem", "position": 5, "item": { "@type": "Product", "name": "Jitter cleaners", "category": "Jitter attenuator IC", "brand": "Nexora Semi", "description": "Jitter attenuator ICs that clean noisy reference or recovered clocks. On the product roadmap." } }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -20,8 +34,8 @@
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" aria-current="page">Products</a></li>
       <li><a href="technology.html">Technology</a></li>
-      <li><a href="products.html" aria-current="page">Solutions</a></li>
       <li><a href="progress.html">R&amp;D Progress</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -32,79 +46,85 @@
 <main>
   <section class="hero page-hero">
     <div class="container">
-      <p class="eyebrow">Solutions</p>
-      <h1>Custom ASICs, and our own chips</h1>
-      <p class="lead">Two ways the AI design flow creates value: designing custom mixed-signal chips for product companies, and developing Nexora's own standard products.</p>
+      <p class="eyebrow">Products</p>
+      <h1>Precision timing ICs</h1>
+      <p class="lead">Every electronic system needs an accurate clock. Nexora is developing a family of timing ICs, from temperature-compensated and oven-controlled crystal oscillators to PLL-based programmable oscillators, clock generators and jitter cleaners. All are designed with our AI-accelerated design flow, so new frequencies and variants can reach the market quickly.</p>
     </div>
   </section>
 
   <section>
-    <div class="container grid grid-2">
-      <div>
-        <p class="eyebrow">Custom ASIC design</p>
-        <h2>Your chip, designed in weeks</h2>
-        <p>For product companies that need lower power, a smaller size or a lower unit cost than off-the-shelf parts can deliver. We take a specification through circuit design, layout, verification and tape-out preparation using our AI agent-driven flow.</p>
-        <p>A smaller team and a shorter schedule mean a lower design cost, which makes custom silicon viable at volumes where it would not have been before.</p>
-        <p><a class="btn btn-primary" href="contact.html">Discuss a project</a></p>
-      </div>
-      <div class="card">
-        <h3>What we deliver</h3>
-        <ul style="color:var(--muted);padding-left:18px;margin:0">
-          <li>Architecture and specification support</li>
-          <li>Analog and mixed-signal circuit design</li>
-          <li>Layout, DRC/LVS-clean and parasitic-extracted</li>
-          <li>Corner, Monte Carlo and post-layout verification</li>
-          <li>Design documentation and tape-out preparation</li>
-          <li>Support through fabrication and silicon testing</li>
-        </ul>
+    <div class="container">
+      <p class="eyebrow">Product roadmap</p>
+      <h2>Timing product families</h2>
+      <p class="section-intro">TCXO ICs and PLL-based TCXOs are our first focus. All products are in development; contact us to discuss requirements or early access.</p>
+      <div class="grid grid-3">
+        <div class="card product">
+          <span class="tag live">First focus</span>
+          <h3>TCXO ICs</h3>
+          <p>Temperature-compensated crystal oscillator ICs. Paired with a quartz crystal, on-chip temperature sensing and compensation, with digital calibration and trim memory, hold the output frequency stable from cold to hot.</p>
+          <ul><li>GNSS and positioning</li><li>Wireless and IoT modules</li><li>Telecom and industrial equipment</li></ul>
+        </div>
+        <div class="card product">
+          <span class="tag live">First focus</span>
+          <h3>PLL-based TCXOs</h3>
+          <p>A temperature-compensated crystal reference combined with an integrated fractional-N PLL that synthesises the required output frequency. One crystal covers many frequencies, so customers get programmable frequencies and short lead times.</p>
+          <ul><li>Flexible-frequency reference clocks</li><li>Communications and networking</li><li>Consolidating multiple oscillators</li></ul>
+        </div>
+        <div class="card product">
+          <span class="tag">Roadmap</span>
+          <h3>OCXO controller ICs</h3>
+          <p>Oscillator and precision oven-control circuits for oven-controlled crystal oscillators: the highest-stability class of crystal oscillator, holding the crystal at a constant temperature.</p>
+          <ul><li>Telecom infrastructure and network synchronisation</li><li>Test and measurement</li><li>Precision time and frequency references</li></ul>
+        </div>
+        <div class="card product">
+          <span class="tag">Roadmap</span>
+          <h3>Clock generators</h3>
+          <p>Multi-output, programmable clock generators with low jitter, generating the many clock frequencies a board needs from a single reference.</p>
+          <ul><li>Processors, FPGAs and SoCs</li><li>Networking and storage</li><li>Data-converter systems</li></ul>
+        </div>
+        <div class="card product">
+          <span class="tag">Roadmap</span>
+          <h3>Jitter cleaners</h3>
+          <p>Jitter attenuators that take a noisy reference or recovered clock and output a clean, low-jitter clock locked to it.</p>
+          <ul><li>High-speed serial links</li><li>5G and wireless infrastructure</li><li>Data-centre equipment</li></ul>
+        </div>
+        <div class="card product">
+          <span class="tag">Partnerships</span>
+          <h3>Custom timing variants</h3>
+          <p>Customer-specific frequencies, stability grades, supply voltages, outputs and packages derived from our timing platform, for partners with volume needs.</p>
+          <ul><li>Tailored specifications</li><li>Second-source options</li><li>Integration into partner modules</li></ul>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="alt">
-    <div class="container">
-      <p class="eyebrow">Nexora products · in development</p>
-      <h2>Standard ICs built with the same flow</h2>
-      <p class="section-intro">Product areas where the flow's speed lets us bring focused, cost-effective parts to market.</p>
-      <div class="grid grid-3">
-        <div class="card product">
-          <span class="tag live">Timing</span>
-          <h3>Precision timing ICs</h3>
-          <p>Crystal oscillator and clock ICs with digital calibration and on-chip trim memory.</p>
-        </div>
-        <div class="card product">
-          <span class="tag live">Timing</span>
-          <h3>PLL clock generators</h3>
-          <p>Low-jitter fractional-N synthesizers that derive flexible output frequencies from a single reference.</p>
-        </div>
-        <div class="card product">
-          <span class="tag">Power</span>
-          <h3>Power management</h3>
-          <p>LDOs, references and supply management for low-power and battery-operated products.</p>
-        </div>
-        <div class="card product">
-          <span class="tag">Sensors</span>
-          <h3>Sensor interface ASICs</h3>
-          <p>Signal conditioning and calibration for sensors, integrated on a single chip.</p>
-        </div>
-        <div class="card product">
-          <span class="tag">RF</span>
-          <h3>RF building blocks</h3>
-          <p>Oscillators, synthesizers and front-end circuits for wireless and communications systems.</p>
-        </div>
-        <div class="card product">
-          <span class="tag">IP</span>
-          <h3>Analog IP licensing</h3>
-          <p>Verified analog blocks generated by our flow, available for integration into partners' SoCs.</p>
-        </div>
+    <div class="container grid grid-2">
+      <div>
+        <p class="eyebrow">Why AI matters for timing</p>
+        <h2>More variants, faster, from a small team</h2>
+        <p>Timing products sell in many variants: different frequencies, stability grades, supply voltages, output types and packages. Each new variant or product generation traditionally needs months of precision analog design, layout and verification across temperature.</p>
+        <p>Nexora's AI agent-driven flow regenerates, re-simulates and re-lays-out circuit blocks automatically under expert review. That lets one experienced timing-IC designer build and maintain a broad portfolio and respond quickly to customer needs.</p>
+        <p><a href="technology.html">How the design flow works &rarr;</a></p>
+      </div>
+      <div class="card">
+        <h3>What makes a timing IC hard</h3>
+        <ul style="color:var(--muted);padding-left:18px;margin:0">
+          <li>Frequency stability over temperature, supply and ageing</li>
+          <li>Ultra-low phase noise and jitter</li>
+          <li>Low power and fast, reliable start-up</li>
+          <li>Precise, per-part calibration stored on chip</li>
+          <li>Verification across many process and temperature corners</li>
+        </ul>
+        <p class="note">These are exactly the repetitive, simulation-heavy tasks our AI agents automate.</p>
       </div>
     </div>
   </section>
 
   <section class="cta">
     <div class="container">
-      <h2>Have a project in mind?</h2>
-      <p>Tell us about your application and requirements.</p>
+      <h2>Interested in our timing products?</h2>
+      <p>We'd like to hear from prospective customers, module makers and partners.</p>
       <a class="btn btn-primary" href="contact.html">Get in touch</a>
     </div>
   </section>
