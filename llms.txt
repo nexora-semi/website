@@ -1,4 +1,4 @@
-# Nexora Semi
+# Nexora Semiconductor (Nexora Semi)
 
 > Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It is developing precision timing integrated circuits (TCXO ICs, PLL-based TCXOs, OCXO controller ICs, clock generators and jitter cleaners) on a reusable mixed-signal platform, using an AI agent-driven design flow in which one senior designer directs AI agents that generate, simulate, lay out and verify circuits.
 
@@ -27,7 +27,7 @@
 
 ## Team
 
-- Founder and Chief Designer: oscillator and mixed-signal ASIC designer with professional experience developing crystal-oscillator, TCXO, VCXO, OCXO and PLL products and multiple mixed-signal ASIC tape-outs; also power management (LDOs, references, bias) and eFuse/OTP trimming. Architect of the AI design flow.
+- Founder and Chief Designer: oscillator and mixed-signal ASIC designer with professional experience developing crystal-oscillator, TCXO, VCXO, OCXO and PLL products and multiple mixed-signal ASIC tape-outs; also power management (LDOs, references, bias) and eFuse/OTP trimming; PhD-level research in low-power ASIC design. Architect of the AI design flow.
 
 ## Pages
 
