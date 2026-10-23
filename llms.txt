@@ -1,11 +1,11 @@
 # Nexora Semiconductor (Nexora Semi)
 
-> Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It is developing precision timing integrated circuits (1.2 V, 1.8 V and 3.3 V oscillator ICs, PLL oscillator ICs, OCXO controller ICs, clock generators and jitter cleaners) on a reusable mixed-signal platform, using an AI agent-driven design flow in which a senior designer directs AI agents that generate, simulate, lay out and verify circuits.
+> Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It is developing precision timing integrated circuits (1.2 V, 1.8 V and 3.3 V oscillator ICs, PLL oscillator ICs, MEMS oscillator ICs, clock generators and jitter cleaners) on a reusable mixed-signal platform, using an AI agent-driven design flow in which a senior designer directs AI agents that generate, simulate, lay out and verify circuits.
 
 ## Key facts
 
 - Business model: fabless. Nexora designs chips; foundry partners manufacture them.
-- Products (in development): oscillator ICs and PLL oscillator ICs (first focus); OCXO controller ICs, clock generators and jitter cleaners (roadmap); customer-specific timing variants for partners.
+- Products (in development): oscillator ICs and PLL oscillator ICs (first focus); MEMS oscillator ICs, clock generators and jitter cleaners (roadmap); customer-specific timing variants for partners.
 - Target markets: telecommunications, optical networking, GNSS, wireless/IoT modules, industrial electronics, test and measurement.
 - Core technology: an AI agent-driven design flow. Agents operate chip-design tools by script across schematic, simulation, layout and verification. A senior designer reviews and signs off every stage.
 
