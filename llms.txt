@@ -1,39 +1,30 @@
 # Nexora Semiconductor (Nexora Semi)
 
-> Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It is developing precision timing integrated circuits (TCXO ICs, PLL-based TCXOs, OCXO controller ICs, clock generators and jitter cleaners) on a reusable mixed-signal platform, using an AI agent-driven design flow in which one senior designer directs AI agents that generate, simulate, lay out and verify circuits.
+> Nexora Semiconductor Pty Ltd (trading as Nexora Semi) is an early-stage fabless semiconductor company in Adelaide, South Australia. It is developing precision timing integrated circuits (1.2 V, 1.8 V and 3.3 V oscillator ICs, PLL oscillator ICs, OCXO controller ICs, clock generators and jitter cleaners) on a reusable mixed-signal platform, using an AI agent-driven design flow in which a senior designer directs AI agents that generate, simulate, lay out and verify circuits.
 
 ## Key facts
 
 - Business model: fabless. Nexora designs chips; foundry partners manufacture them.
-- Products (in development): TCXO ICs and PLL-based TCXOs (first focus); OCXO controller ICs, clock generators and jitter cleaners (roadmap); customer-specific timing variants for partners.
-- Target markets: telecommunications, optical networking, GNSS, wireless/IoT modules, industrial electronics, test and measurement; B2B, Australia and Asia first, then worldwide.
-- Revenue model: sales of proprietary timing ICs, manufactured by foundry and assembly/test partners; also custom variants and selected IP licensing.
-- Core technology: an AI agent-driven design flow. Agents operate EDA tools by script to generate schematics, build test benches, run process/voltage/temperature corner and Monte Carlo simulations, generate layout placement, power and routing, run DRC, LVS and parasitic extraction, fix violations and write design reports. A senior designer reviews and signs off every stage. Multiple agents work on separate blocks in parallel.
-- Target advantage: design a small mixed-signal ASIC in about 1 month with 1 senior designer plus AI agents, versus about 6 months and a 3-person team (analog, digital and layout engineers) in a conventional flow. These are targets based on block-level results; full-chip validation is in progress.
+- Products (in development): oscillator ICs and PLL oscillator ICs (first focus); OCXO controller ICs, clock generators and jitter cleaners (roadmap); customer-specific timing variants for partners.
+- Target markets: telecommunications, optical networking, GNSS, wireless/IoT modules, industrial electronics, test and measurement.
+- Core technology: an AI agent-driven design flow. Agents operate chip-design tools by script across schematic, simulation, layout and verification. A senior designer reviews and signs off every stage.
 
-## Measured results (block level, October 2026)
+## Results to date (block level, 2026)
 
-- About 15 analog blocks (regulators, bias generators, LDOs, oscillator, divider) laid out by AI agents and verified DRC/LVS-clean in about two weeks, with one designer reviewing.
-- A full automated placement, power, routing, DRC and extraction pass takes under one minute per block.
-- One AI-generated regulator layout was 17% smaller than the hand-drawn layout, with about 6 dB better power-supply rejection, and replaced it as the reference design.
-- 100+ PVT corners plus Monte Carlo analyses are set up, run and checked automatically per block.
+- About 15 analog blocks laid out by AI agents and verified DRC/LVS-clean in about two weeks.
+- Automated layout, verification and corner/Monte Carlo simulation.
 
 ## Status and roadmap
 
-- Completed (2026): AI design flow built; proven on about 15 circuit blocks; company established (ABN registered October 2026).
-- In progress: full-chip integration (top-level assembly, pad ring, chip-level verification).
-- Planned: tape-out of the first precision-timing mixed-signal ASIC (TCXO platform) on a multi-project wafer (MPW) shuttle; silicon characterisation (stability over temperature, phase noise, power, start-up); engineering samples for customer evaluation; growing a South Australian engineering team.
-- Not yet demonstrated: a complete chip designed end to end in about one month; fabricated silicon from the AI flow.
-
-## Team
-
-- Founder and Chief Designer: oscillator and mixed-signal ASIC designer with professional experience developing crystal-oscillator, TCXO, VCXO, OCXO and PLL products and multiple mixed-signal ASIC tape-outs; also power management (LDOs, references, bias) and eFuse/OTP trimming; PhD-level research in low-power ASIC design. Architect of the AI design flow.
+- Completed (2026): AI design flow built and proven on circuit blocks; company established.
+- In progress: full-chip integration.
+- Planned: first precision-timing ASIC (oscillator platform) on a multi-project wafer shuttle; silicon characterisation; engineering samples.
 
 ## Pages
 
-- [Home](https://www.nexorasemi.com/): overview, problem, solution, results
-- [Technology](https://www.nexorasemi.com/technology.html): the AI design flow step by step
+- [Home](https://www.nexorasemi.com/): overview and early results
+- [Technology](https://www.nexorasemi.com/technology.html): the AI design flow
 - [Products](https://www.nexorasemi.com/products.html): timing IC product families and roadmap
-- [R&D Progress](https://www.nexorasemi.com/progress.html): milestones and roadmap
-- [About](https://www.nexorasemi.com/about.html): mission, founder profile, company facts, FAQ
+- [R&D Progress](https://www.nexorasemi.com/progress.html): milestones
+- [About](https://www.nexorasemi.com/about.html): mission, company facts, FAQ
 - [Contact](https://www.nexorasemi.com/contact.html): info@nexorasemi.com

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nexora Semiconductor — Precision Timing &amp; Mixed-Signal ICs</title>
-  <meta name="description" content="Nexora Semiconductor is a South Australian fabless semiconductor company developing high-performance, cost-efficient analog and mixed-signal ICs, starting with precision timing (TCXO, OCXO, PLL-based TCXO, clock generator and jitter cleaner ICs), using AI-assisted engineering to shorten development cycles.">
+  <meta name="description" content="Nexora Semiconductor is a South Australian fabless semiconductor company developing high-performance, cost-efficient analog and mixed-signal ICs, starting with precision timing (oscillator, PLL oscillator, OCXO controller, clock generator and jitter cleaner ICs), using AI-assisted engineering to shorten development cycles.">
   <link rel="canonical" href="https://www.nexorasemi.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Nexora Semiconductor — Precision Timing &amp; Mixed-Signal ICs">
@@ -23,7 +23,7 @@
     "logo": "https://www.nexorasemi.com/img/favicon.svg",
     "email": "info@nexorasemi.com",
     "foundingDate": "2026",
-    "description": "South Australian fabless semiconductor company developing high-performance, cost-efficient analog and mixed-signal integrated circuits, with an initial focus on precision timing (TCXO ICs, PLL-based TCXOs, OCXO controller ICs, clock generators and jitter cleaners). Uses AI-assisted engineering workflows and reusable silicon platforms to shorten development cycles and reduce cost.",
+    "description": "South Australian fabless semiconductor company developing high-performance, cost-efficient analog and mixed-signal integrated circuits, with an initial focus on precision timing (oscillator ICs, PLL oscillator ICs, OCXO controller ICs, clock generators and jitter cleaners). Uses AI-assisted engineering workflows and reusable silicon platforms to shorten development cycles and reduce cost.",
     "address": { "@type": "PostalAddress", "addressLocality": "Adelaide", "addressRegion": "SA", "addressCountry": "AU" },
     "knowsAbout": ["Timing ICs", "TCXO", "VCXO", "OCXO", "Crystal oscillators", "Fractional-N PLL", "Clock generators", "Jitter attenuators", "Analog and mixed-signal IC design", "Low-power integrated circuits", "AI-assisted IC design"]
   }
@@ -90,7 +90,7 @@
       <p class="eyebrow">What we build</p>
       <h2>Analog and mixed-signal ICs, led by precision timing</h2>
       <div class="grid grid-2" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
-        <div class="card product"><span class="tag live">First focus</span><h3>Precision timing &amp; clocking</h3><p>TCXO ICs and PLL-based TCXOs first, then OCXO controller ICs, clock generators and jitter cleaners: high stability, low noise and low power.</p><p style="margin-top:12px"><a href="products.html">Timing products &rarr;</a></p></div>
+        <div class="card product"><span class="tag live">First focus</span><h3>Precision timing &amp; clocking</h3><p>1.2&nbsp;V, 1.8&nbsp;V and 3.3&nbsp;V oscillator ICs and PLL oscillator ICs first, then OCXO controller ICs, clock generators and jitter cleaners.</p><p style="margin-top:12px"><a href="products.html">Timing products &rarr;</a></p></div>
         <div class="card product"><span class="tag">Roadmap</span><h3>Analog &amp; mixed-signal ICs</h3><p>Integrated solutions combining sensing, signal processing, power management, calibration, control and digital interfaces.</p></div>
         <div class="card product"><span class="tag">Roadmap</span><h3>RF &amp; connected devices</h3><p>Low-power integrated circuits for wireless, identification, sensing and connected-device applications.</p></div>
         <div class="card product"><span class="tag">Platform</span><h3>Reusable silicon platforms</h3><p>IC architectures and semiconductor IP designed to support multiple product variants and future applications.</p></div>
@@ -128,12 +128,11 @@
     <div class="container">
       <p class="eyebrow">Early results</p>
       <h2>Measured on real circuit blocks</h2>
-      <p class="section-intro">Block-level results from Nexora's AI-assisted design flow, October 2026.</p>
+      <p class="section-intro">Block-level results from Nexora's AI-assisted design flow, 2026.</p>
       <div class="grid grid-2" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr))">
-        <div class="card result"><strong>~15 blocks</strong><p>Analog blocks (regulators, bias generators, LDOs, oscillator, divider) laid out by AI agents and verified DRC/LVS-clean in about two weeks, reviewed by one designer.</p></div>
-        <div class="card result"><strong>&lt; 1 minute</strong><p>For an automated placement, power, routing, DRC and parasitic-extraction pass on a block, so layout can be regenerated freely as the design evolves.</p></div>
-        <div class="card result"><strong>17% smaller</strong><p>AI-generated regulator layout vs. the hand-drawn version, with about 6&nbsp;dB better supply rejection. It replaced the hand layout as the reference design.</p></div>
-        <div class="card result"><strong>100+ corners</strong><p>Process, voltage and temperature corners plus Monte Carlo runs, set up, run and checked automatically for each block.</p></div>
+        <div class="card result"><strong>~15 blocks</strong><p>Analog blocks laid out by AI agents and verified DRC/LVS-clean in about two weeks.</p></div>
+        <div class="card result"><strong>Minutes, not days</strong><p>Automated layout and verification passes, so a block can be regenerated as the design evolves.</p></div>
+        <div class="card result"><strong>Automated PVT</strong><p>Corner and Monte Carlo verification set up, run and checked automatically.</p></div>
       </div>
       <p class="note">These are block-level results; first silicon is the next milestone.</p>
     </div>
